@@ -2,7 +2,7 @@
   "name": "brackets-dark-syntax",
   "theme": "syntax",
   "version": "1.0.0",
-  "description": "Syntax Highlighting inspired by Brackets Editor",
+  "description": "Atom Syntax Highlighting inspired by Brackets Editor",
   "keywords": [
     "syntax",
     "theme"
