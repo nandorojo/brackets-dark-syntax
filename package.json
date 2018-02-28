@@ -1,7 +1,7 @@
 {
   "name": "brackets-dark-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Atom Syntax Highlighting inspired by Brackets Editor",
   "keywords": [
     "syntax",
