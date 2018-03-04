@@ -5,7 +5,9 @@
   "description": "Atom Syntax Highlighting inspired by Brackets Editor",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+	 "dark",
+	 "brackets"
   ],
   "repository": "https://github.com/pesrepus/brackets-dark-syntax",
   "license": "MIT",
