@@ -1,0 +1,62 @@
+.wrapper {
+    padding: rem-calc(200 100 100 100);
+
+    .row {
+        position: relative;
+        background-color: $white;
+        box-shadow: rem-calc(0 15 70 0) rgba(0,0,0,0.13);
+
+        .columns:first-child {
+            box-shadow: rem-calc(45 0 50 -30) rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .columns:last-child {
+            position: relative;
+
+            table {
+                margin: rem-calc(40 0 50 0);
+
+                tr {
+                    td:first-child {
+                        color: map-get($foundation-palette, primary);
+                    }
+                }
+            }
+
+            .bottom-info {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                line-height: rem-calc(20);
+                color: #aaaaaa;
+            }
+        }
+    }
+}
+
+@include breakpoint(large only) {
+    .wrapper {
+        padding: rem-calc(180 80 80 80);
+
+        .row {
+            .columns {
+                padding: rem-calc(60);
+            }
+
+            .columns:last-child {
+                table {
+                    tr {
+                        td {
+                            font-size: 0.95rem;
+                        }
+                    }
+                }
+
+                .bottom-info {
+                    margin: rem-calc(0 60 40 60);
+                }
+            }
+        }
+    }
+}
